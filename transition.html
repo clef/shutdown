@@ -1,0 +1,295 @@
+<html class=" webkit chrome mac js" data-ember-extension="1"><head>
+    <meta charset="utf-8">
+    <title>Transitioning away from Clef for two-factor authentication - Clef Support</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="NOTE:&nbsp;Following&nbsp;our announcement, as of July 7th,&nbsp;Clef has been officially decommissioned. This means logins with the Clef app will no longer work. If you can n">
+    <meta name="author" content="Clef">
+    <link rel="canonical" href="http://support.getclef.com/article/136-transitioning-away-from-clef-for-two-factor-authentication">
+    <link rel="stylesheet" href="launch-1499399979733.css">
+    <style>
+        body { background: #ffffff; }
+        .navbar .navbar-inner { background: #0d9ddb; }
+        .navbar .nav li a, 
+        .navbar .icon-private-w  { color: #ffffff; }
+        .navbar .brand, 
+        .navbar .nav li a:hover, 
+        .navbar .nav li a:focus, 
+        .navbar .nav .active a, 
+        .navbar .nav .active a:hover, 
+        .navbar .nav .active a:focus  { color: #f2f2f2; }
+        .navbar a:hover .icon-private-w, 
+        .navbar a:focus .icon-private-w, 
+        .navbar .active a .icon-private-w, 
+        .navbar .active a:hover .icon-private-w, 
+        .navbar .active a:focus .icon-private-w { color: #f2f2f2; }
+        #serp-dd .result a:hover,
+        #serp-dd .result > li.active,
+        #full-Article strong a, 
+        .collection a, 
+        .contentWrapper a,
+        .most-pop-articles .popArticles a, .most-pop-articles .popArticles a:hover span,
+        .category-list .category .article-count,
+        .category-list .category:hover .article-count { color: #4381b5; }
+        #fullArticle, 
+        #fullArticle p, 
+        #fullArticle ul, 
+        #fullArticle ol, 
+        #fullArticle li, 
+        #fullArticle div, 
+        #fullArticle blockquote, 
+        #fullArticle dd, 
+        #fullArticle table { color:#585858; }
+    </style>
+    
+    <link rel="apple-touch-icon-precomposed" href="//d33v4339jhl8k0.cloudfront.net/docs/assets/5329f7f5e4b0818b78dbecd8/images/54c6c55fe4b051242988578d/twitter-photo.png">
+    <link rel="shortcut icon" type="image/png" href="//d33v4339jhl8k0.cloudfront.net/docs/assets/5329f7f5e4b0818b78dbecd8/images/54c6c5ade4b07997ea3f41e6/gradient-icon.png">
+<style>
+html, body {
+    font-family: "Avenir W01", Helvetica, sans-serif;
+}
+body *,
+body *:before,
+body *:after {
+    font-family: inherit;
+}
+.brand img {
+    height: 40px !important;
+    width: auto !important;
+}
+.navbar .nav li a {
+  position: relative;
+  font-size: 1.4em;
+  top: -3px;
+}
+#fullArticle p {
+    font-size: 16px;
+}
+#fullArticle pre {
+    font-size: 16px;
+}
+#fullArticle li {
+    font-size: 16px;
+}
+#fullArticle dd {
+    font-size: 16px;
+}
+#fullArticle section.callout-blue p {
+    font-size: 16px;
+}
+#fullArticle section.callout-green p {
+    font-size: 16px;
+}
+#fullArticle section.callout-yellow p {
+    font-size: 16px;
+}
+#fullArticle section.callout-red p {
+    font-size: 16px;
+}
+#fullArticle dt {
+  background: #0d9ddb;
+}
+.nav-list {
+   font-size: 16px;
+}
+li.nobullet:last-child {
+   list-style-type: none; 
+}
+dd p {
+margin-top: 35px;
+}
+
+#fullArticle .title {
+margin-bottom: 50px;
+}
+#fullArticle code, code {
+  font-size: 1em;
+}
+</style>
+    <body style="">
+        
+<header id="mainNav" class="navbar">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            
+            <a class="brand" href="/">
+            
+                
+                    <img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/5329f7f5e4b0818b78dbecd8/images/55d21a5ae4b01fdb81eb412f/Clef-Logo-White-4.png" alt="Clef Support" width="163" height="75">
+                
+
+            
+            </a>
+        </div><!--/container-->
+    </div><!--/navbar-inner-->
+</header>
+        <section id="contentArea" class="container-fluid">
+            <div class="row-fluid">
+                <section id="main-content" class="span9">
+                    <div class="contentWrapper">
+                        
+                        
+    
+    <article id="fullArticle">
+        <h1 class="title">Transitioning away from Clef for two-factor authentication</h1>
+    
+  <section class="callout-yellow">
+   <p> <strong>NOTE:</strong>&nbsp;<strong>Following</strong>&nbsp;<a href="https://blog.getclef.com/discontinuing-support-for-clef-6c89febef5f3">our announcement,</a> <strong>as of July 7th,</strong><strong>&nbsp;Clef has been officially decommissioned. This means logins with the Clef app will no longer work. </strong>If you can not log into your site because of this, restore&nbsp;password-based access&nbsp;by deleting the <code>/wp-content/plugins/wpclef/</code>&nbsp;folder via SFTP, SSH, WP-CLI, or your control panel's file manager.</p>
+  </section>
+  <p> This is a guide to help users transition from Clef to other forms of two-factor authentication. To best help you make the transition, please select how you use Clef:</p>
+  <ul> 
+   <li><a href="#wordpress">I log in with Clef using the Clef plugin on a WordPress site</a></li> 
+   <li><a href="#user">I log in with Clef on a non-WordPress site</a></li> 
+   <li><a href="#developer">I am a developer who has integrated Clef using the Clef API</a></li>
+  </ul>
+  <h2 id="wordpress">I log in with Clef using the Clef plugin on a WordPress site</h2>
+  <p> If you're using WordPress and Clef, transitioning to another form of two-factor authentication is easy! This guide will walk you through uninstalling the Clef plugin and installing the Authy plugin or Google Authenticator through Jetpack or Wordfence.</p>
+  <dl> 
+   <dt>
+    1
+   </dt> 
+   <dd>
+    Log in to your WordPress site
+   </dd> 
+   <dt>
+    2
+   </dt> 
+   <dd>
+    Navigate to the 
+    <code>Plugins</code> section of your WordPress dashboard
+    <img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/5329f7f5e4b0818b78dbecd8/images/58bca7812c7d3a576d35b21e/file-rWy0ytMSf9.png">
+   </dd> 
+   <dt>
+    3
+   </dt> 
+   <dd>
+    <strong>Deactivate</strong> the the Clef plugin.
+    <img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/5329f7f5e4b0818b78dbecd8/images/58bca7882c7d3a576d35b21f/file-dz5p4Xcu3M.png">
+   </dd> 
+   <dt>
+    4
+   </dt> 
+   <dd>
+    <strong>Delete</strong> the the Clef plugin.
+    <img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/5329f7f5e4b0818b78dbecd8/images/58bca78edd8c8e56bfa83362/file-Wie2LxqRwm.png">
+   </dd> 
+   <dt>
+    5
+   </dt> 
+   <dd>
+    Follow one of these guides for setting up two-factor authentication with another plugin:
+   </dd>
+   <dd>
+    1.&nbsp;
+    <a href="https://wordpress.org/plugins/two-factor/" style="background-color: rgb(255, 255, 255);">Two-Factor</a>
+   </dd>
+   <dd>
+    2.&nbsp;
+    <a href="https://www.authy.com/integrations/wordpress/" style="background-color: rgb(255, 255, 255);">Authy</a>
+   </dd>
+   <dd>
+    3.&nbsp;
+    <a href="https://wordpress.org/plugins/google-authenticator/installation/" style="background-color: rgb(255, 255, 255);">Google Authenticator</a>
+   </dd>
+   <dd>
+    <br> 
+   </dd>
+  </dl>
+  <p> If you do not have access to the <code>Plugins</code> section of your WordPress site, please send this guide to your WordPress administrator.</p>
+  <h2 id="user">I log in with Clef on a non-WordPress site</h2>
+  <p> If your site is not a WordPress site, to switch away from Clef you simply need to disable Clef on your account and activate a second form of two-factor authentication. <br> <br> Because every site is different, we can't give detailed instructions on how to change these settings, but we recommend looking for the <code>Security</code> section of your <code>Account Settings</code>.</p>
+  <h2 id="developer">I am a developer who has integrated Clef using the Clef API</h2>
+  <p> To transition away from Clef as a developer, you need to three primary things:</p>
+  <ol> 
+   <li>Integrate an alternate form of two-factor authentication on your website or app</li> 
+   <li>Advise your users that Clef support will be ending on your website</li> 
+   <li>Disable your Clef integration</li>
+  </ol>
+    </article>
+    <section class="articleFoot">
+    
+    
+    <time class="lu" datetime="2017-07-08">Last updated on July 8, 2017</time>
+    </section>
+
+                    </div><!--/contentWrapper-->
+                    
+                </section><!--/content-->
+            </div><!--/row-->
+            <div id="noResults" style="display:none;">No results found</div>
+            <footer>
+                
+
+<p>© <a href="https://getclef.com">Clef</a> 2017
+</p>
+
+            </footer>
+        </section><!--/.fluid-container-->
+        
+
+<section id="contactModal" class="modal hide" tabindex="-1">
+	<h2>Contact Us</h2>
+	<a href="#" id="closeBtn" data-dismiss="modal"><i class="icon-close"></i></a>
+	<div class="modal-body">
+		<form data-parsley-validate="" novalidate="" method="post" action="/contact" enctype="multipart/form-data" class="form-horizontal contact">
+			<div class="control-group">
+				<label for="name" class="control-label">Name</label>
+				<div class="controls">
+					<input type="text" name="name" id="md-name" placeholder="(optional)">
+				</div>
+				<!--/controls-->
+			</div>
+			<!--/control-group-->
+			<div class="control-group">
+				<label for="email" class="control-label">Email</label>
+				<div class="controls">
+					<input type="email" name="email" id="md-email" data-parsley-required="true" data-parsley-type="email" data-parsley-notblank="true" data-parsley-trigger="change" data-parsley-required-message="Email is required">
+					<input type="text" name="phone" id="phone" value="">
+				</div>
+				<!--/controls-->
+			</div>
+			<!--/control-group-->
+			<div class="control-group">
+				<label for="subject" class="control-label">Subject</label>
+				<div class="controls">
+					<input type="text" name="subject" id="md-subject" data-parsley-required="true" data-parsley-notblank="true" data-parsley-required-message="Subject is required">
+				</div>
+				<!--/controls-->
+			</div>
+			<!--/control-group-->
+			<div class="control-group">
+				<label for="message" class="control-label">Message</label>
+				<div class="controls">
+					<textarea name="message" id="md-message" data-parsley-required="true" data-parsley-notblank="true" data-parsley-required-message="Message is required"></textarea>
+				</div>
+				<!--/controls-->
+			</div>
+			<!-- /control-group -->
+			<div class="control-group">
+				<label for="upload" class="control-label">Upload file</label>
+				<div class="controls">
+					<input id="file-upload" type="file" name="upload" data-parsley-max-file-size="10">
+				</div>
+			</div>
+			<!--/control-group-->
+			<div class="form-actions">
+				
+				<input type="submit" class="btn" value="Send">
+			</div>
+			<!--/form-actions-->
+		</form>
+	</div>
+	<!--/modal-body-->
+</section>
+
+        
+        
+    <script src="//d25gbwvd82b2e5.cloudfront.net/assets/javascripts/app3.min.js"></script>
+</body></html>
